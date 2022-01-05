@@ -1,0 +1,38 @@
+body {
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        flex-wrap: wrap;
+    }
+}
+
+
+form {
+    padding-left: 30px;
+    padding-right: 20%;
+    padding-top: 40px;
+}
+
+input[type=text], textarea {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    width:100%;
+    resize: vertical;
+    border-radius:10px;
+}
+
+table {
+    width: 50%;
+}
+
+.about {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+ }
