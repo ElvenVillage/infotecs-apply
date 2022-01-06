@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./main.css" rel="stylesheet" type="text/css">
+
+    <script src="./data.js" defer></script>
+    <script src="./index.js" defer></script>
+
     <title>infotecs</title>
 </head>
 <body>
     <div id="page">
-        <button id="next">+</button>
-        <button id="prev">-</button>
+        <button id="next" style="font-family: monospace;">+</button>
+        <button id="prev" style="font-family: monospace;">-</button>
     </div>
     <table>
-        <thead id="head">
-            
-        </thead>
+        <thead id="head"></thead>
         <tbody id="root"></tbody>
     </table>
 
     <div>
+        <div id="toggler" style="display: flex;"></div>
         <form id="editor"></form>
     </div>
-    <script src="./data.js"></script>
-    <script src="./index.js"></script>
 </body>
-
 </html>
